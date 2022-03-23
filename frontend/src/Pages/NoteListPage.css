@@ -1,0 +1,83 @@
+.notes {
+  background-color: #6b4f4f;
+  transition: 0.7s;
+}
+
+.notes-title {
+  text-align: start;
+  color: white;
+  width: 50%;
+  margin-left: 10px;
+  transition: 0.7s;
+}
+
+.notes-count {
+  text-align: end;
+  margin-top: -45px;
+  margin-bottom: 60px;
+  margin-right: 10px;
+  transition: 0.7s;
+}
+
+.notes-list {
+  text-align: center;
+  border: solid rgba(0, 0, 0, 0.363);
+  background-color: rgba(82, 90, 45, 0.575);
+  transition: 0.7s;
+}
+
+.create-note {
+  display: flex;
+  padding-top: 6px;
+  margin-bottom: -25px;
+  font-size: 22px;
+  padding-left: 5px;
+  transition: 0.7s;
+}
+.create-note:hover {
+  transition: 0.5s;
+  color: rgba(0, 255, 21, 0.568);
+}
+.create-note > span {
+  font-size: 20px;
+  padding-left: 3px;
+}
+.icons {
+  text-align: end;
+  transition: 0.7s;
+}
+.icons > a {
+  padding-right: 8px;
+  font-size: 23px;
+  color: rgba(182, 189, 190, 0.863);
+  text-decoration: none;
+  transition: 0.7s;
+}
+a > .fb:hover {
+  transition: 0.5s;
+  color: #2f5db9;
+}
+a > .wp:hover {
+  transition: 0.5s;
+  color: #25d366;
+}
+a > .ig:hover {
+  transition: 0.5s;
+  color: #8a3ab9;
+}
+.notes-list {
+  margin-bottom: 17px;
+  margin-top: -14px;
+  transition: 0.7s;
+}
+.notes-list-item {
+  color: rgba(255, 255, 255, 0.795);
+  margin-bottom: 30px;
+  transition: 0.7s;
+}
+.notes-list-item:hover {
+  transition: 1s;
+  color: #fff89a;
+  border-radius: 20px solid rgba(0, 0, 0, 0.438);
+  border: solid rgba(0, 0, 0, 0.432);
+}
