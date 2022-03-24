@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-!l*+o5n_fc%_v=#s36z=ni4=q8ft@tzf-h#fgi03=@l-qw1&29'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['djangoreact-noteapp-youseef.herokuapp.com', '*']
 
 
 # Application definition
