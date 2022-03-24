@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-!l*+o5n_fc%_v=#s36z=ni4=q8ft@tzf-h#fgi03=@l-qw1&29
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['djangoreact-noteapp-youseef.herokuapp.com', '*']
+ALLOWED_HOSTS = ['*','djangoreact-noteapp-youseef.herokuapp.com']
 
 
 # Application definition
@@ -46,6 +46,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
